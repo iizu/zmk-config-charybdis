@@ -60,7 +60,7 @@
                                    &kp RIGHT_ALT  &kp PRINTSCREEN  &kp RCTRL    &kp RET    &trans     &trans
             >;
 
-            trackball-bindings = <&tsl_fine>;
+            #trackball-bindings = <&tsl_fine>;
         };
 
         Mouse {
