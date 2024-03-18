@@ -36,7 +36,7 @@
                          &mo 3  &kp SPACE  &mo 1    &mo 2  &bsdel  &kp RIGHT_SHIFT
             >;
 
-            trackball-bindings = <&tmv_coarse>;
+            #trackball-bindings = <&tmv_coarse>;
         };
 
         Lower {
@@ -48,7 +48,7 @@
                                        &trans        &trans        &trans    &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_ALT
             >;
 
-            trackball-bindings = <&tmv_fine>;
+           #trackball-bindings = <&tmv_fine>;
         };
 
         Raise {
@@ -71,7 +71,7 @@
                                          &mkp MCLK  &mkp LCLK   &mkp RCLK      &mkp MB2   &mkp MB1       &mkp MB3
             >;
 
-            trackball-bindings = <&tmv_fine>;
+            #trackball-bindings = <&tmv_fine>;
         };
     };
 };
