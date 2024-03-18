@@ -11,29 +11,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
 
-        L-CTRL-Thumb {
-            bindings = <&kp LCTRL>;
-            key-positions = <37 36>;
-        };
-
-        L-Gui-Thumb {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <37 38>;
-        };
-
-        LeftClickCombo {
-            bindings = <&mkp LCLK>;
-            key-positions = <39 40>;
-        };
-
-        RightClickCombo {
-            bindings = <&mkp RCLK>;
-            key-positions = <41 40>;
-        };
-    };
 
     behaviors {
         bsdel: bsdel {
